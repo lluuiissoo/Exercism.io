@@ -6,15 +6,15 @@ using System.Threading.Tasks;
 
 namespace leap.exercism.io
 {
-    public class Leap
+    public class Year
     {
         public bool IsLeap(int year)
         {
             bool result = false;
 
-            if (IsXDivisibleByY(year,100) && IsXDivisibleByY(year,400))
+            if (IsXDivisibleByY(year, 100) && IsXDivisibleByY(year, 400))
             {
-                result = IsXDivisibleByY(year,4);
+                result = IsXDivisibleByY(year, 4);
             }
             else
             {

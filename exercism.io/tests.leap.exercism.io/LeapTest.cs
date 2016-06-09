@@ -4,12 +4,12 @@ using leap.exercism.io;
 [TestFixture]
 public class LeapTest
 {
-    Leap Year;
+    Year Year;
 
     [TestFixtureSetUp]
     public void Init()
     {
-        Year = new Leap();
+        Year = new Year();
     }
 
     [Test]
