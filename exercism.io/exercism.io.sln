@@ -27,6 +27,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "anagram.exercism.io", "anag
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tests.anagram.exercism.io", "tests.anagram.exercism.io\tests.anagram.exercism.io.csproj", "{DD6A8D7F-3ACD-4FD8-AB8D-B2BB49A050E8}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Hamming", "Hamming", "{6C63CE70-E14E-4400-9B8E-929B17BC8343}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hamming.exercism.io", "hamming.exercism.io\hamming.exercism.io.csproj", "{CEBA2A23-E616-4DF2-B035-26586E1582BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tests.hamming.exercism.io", "tests.hamming.exercism.io\tests.hamming.exercism.io.csproj", "{9F8D8493-20B7-401B-BF13-EBF033257A6A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -65,6 +71,14 @@ Global
 		{DD6A8D7F-3ACD-4FD8-AB8D-B2BB49A050E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DD6A8D7F-3ACD-4FD8-AB8D-B2BB49A050E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DD6A8D7F-3ACD-4FD8-AB8D-B2BB49A050E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEBA2A23-E616-4DF2-B035-26586E1582BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEBA2A23-E616-4DF2-B035-26586E1582BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEBA2A23-E616-4DF2-B035-26586E1582BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEBA2A23-E616-4DF2-B035-26586E1582BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F8D8493-20B7-401B-BF13-EBF033257A6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F8D8493-20B7-401B-BF13-EBF033257A6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F8D8493-20B7-401B-BF13-EBF033257A6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F8D8493-20B7-401B-BF13-EBF033257A6A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -78,5 +92,7 @@ Global
 		{AA3FA840-DCBF-47A0-8D6E-0E1A6E587DF2} = {A1EABC04-14B4-400E-939F-82718EDDA877}
 		{7CD8B623-7A46-4BC5-93CF-56734AE7A1D7} = {AF2EA01F-32AE-4C5F-B5A9-7A594A7E21DF}
 		{DD6A8D7F-3ACD-4FD8-AB8D-B2BB49A050E8} = {AF2EA01F-32AE-4C5F-B5A9-7A594A7E21DF}
+		{CEBA2A23-E616-4DF2-B035-26586E1582BE} = {6C63CE70-E14E-4400-9B8E-929B17BC8343}
+		{9F8D8493-20B7-401B-BF13-EBF033257A6A} = {6C63CE70-E14E-4400-9B8E-929B17BC8343}
 	EndGlobalSection
 EndGlobal
