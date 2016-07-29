@@ -51,6 +51,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tests.nucleotide-count.exer
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nucleodite-count.exercism.io", "nucleodite-count.exercism.io\nucleodite-count.exercism.io.csproj", "{049938E4-2664-4AEB-9AD2-7418E61AB105}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Phone-Number", "Phone-Number", "{B03B8541-56D3-4897-9CD1-C69121778F0E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "phone-number.exercism.io", "phone-number.exercism.io\phone-number.exercism.io.csproj", "{37EDB6F3-E865-49C1-9F7C-8F7D4D55813E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tests.phone-number.exercism.io", "tests.phone-number.exercism.io\tests.phone-number.exercism.io.csproj", "{7669B695-4225-4D27-BCC4-FFE73967DBA0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -121,6 +127,14 @@ Global
 		{049938E4-2664-4AEB-9AD2-7418E61AB105}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{049938E4-2664-4AEB-9AD2-7418E61AB105}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{049938E4-2664-4AEB-9AD2-7418E61AB105}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37EDB6F3-E865-49C1-9F7C-8F7D4D55813E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37EDB6F3-E865-49C1-9F7C-8F7D4D55813E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37EDB6F3-E865-49C1-9F7C-8F7D4D55813E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37EDB6F3-E865-49C1-9F7C-8F7D4D55813E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7669B695-4225-4D27-BCC4-FFE73967DBA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7669B695-4225-4D27-BCC4-FFE73967DBA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7669B695-4225-4D27-BCC4-FFE73967DBA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7669B695-4225-4D27-BCC4-FFE73967DBA0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -142,5 +156,7 @@ Global
 		{29702412-C70C-449E-AB62-4EA5337FBBE9} = {A0CC8559-B320-49AF-8369-C1BCDEE95758}
 		{720A7FAD-3828-4C78-8E18-BF55194D134A} = {514636E3-994C-4A2F-94BE-CA9038617E86}
 		{049938E4-2664-4AEB-9AD2-7418E61AB105} = {514636E3-994C-4A2F-94BE-CA9038617E86}
+		{37EDB6F3-E865-49C1-9F7C-8F7D4D55813E} = {B03B8541-56D3-4897-9CD1-C69121778F0E}
+		{7669B695-4225-4D27-BCC4-FFE73967DBA0} = {B03B8541-56D3-4897-9CD1-C69121778F0E}
 	EndGlobalSection
 EndGlobal
