@@ -59,10 +59,11 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <None Include="README.md" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\word-count.exercism.io\word-count.exercism.io.csproj">
-      <Project>{f941af0d-4af7-44a6-be68-8716d293b044}</Project>
+      <Project>{29702412-c70c-449e-ab62-4ea5337fbbe9}</Project>
       <Name>word-count.exercism.io</Name>
     </ProjectReference>
   </ItemGroup>
