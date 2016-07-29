@@ -16,8 +16,10 @@ namespace nucleotide_count.exercism.io
 
             foreach (char c in str.ToUpper())
             {
-                if (NucleotideCounts.ContainsKey(c))
-                    NucleotideCounts[c]++;
+                if (!NucleotideCounts.ContainsKey(c))
+                    throw new InvalidNucleotideException();
+
+                NucleotideCounts[c]++;
             }
         }
 

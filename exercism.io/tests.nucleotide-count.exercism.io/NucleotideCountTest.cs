@@ -71,4 +71,10 @@ public class NucleoTideCountTest
         var expected = new Dictionary<char, int> { { 'A', 20 }, { 'T', 21 }, { 'C', 12 }, { 'G', 17 } };
         Assert.That(dna.NucleotideCounts, Is.EqualTo(expected));
     }
+
+    [Test]
+    public void Validates_strand()
+    {
+        Assert.Throws<InvalidNucleotideException>(() => new DNA("GGXTTGG"));
+    }
 }
