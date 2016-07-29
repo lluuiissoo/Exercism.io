@@ -9,15 +9,23 @@ namespace phone_number.exercism.io
 {
     public class PhoneNumber
     {
-        public string Number { get; set; }
+        private string _number;
+        public string Number
+        {
+            get { return _number; }
+        }
 
-        public string AreaCode { get; set; }
+        private string _areaCode;
+        public string AreaCode
+        {
+            get { return _areaCode; }
+        }
 
         public PhoneNumber(string number)
         {
-            Number = ValidateNumber(number);
+            _number = ValidateNumber(number);
 
-            AreaCode = Number.Substring(0, 3);
+            _areaCode = Number.Substring(0, 3);
         }
 
         private string ValidateNumber(string phoneNumber)
@@ -42,18 +50,19 @@ namespace phone_number.exercism.io
         private string RemoveNonDigitCharacters(string phoneNumber)
         {
             string nonDigitPattern = @"[^0-9]"; //Matches all non-digit characters
-            
+
             return Regex.Replace(phoneNumber, nonDigitPattern, string.Empty, RegexOptions.None);
         }
 
         public override string ToString()
         {
             string formattedNumber = string.Format("({0}) {1}-{2}",
-                Number.Substring(0, 3), //Area Code
-                Number.Substring(3, 3), //First 3 digits
-                Number.Substring(6, 4)); //Last 4 digits
+                _areaCode, //Area Code
+                _number.Substring(3, 3), //First 3 digits
+                _number.Substring(6, 4)); //Last 4 digits
 
             return formattedNumber;
         }
     }
 }
+

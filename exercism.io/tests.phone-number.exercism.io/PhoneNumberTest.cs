@@ -58,4 +58,12 @@ public class PhoneNumberTest
         var phone = new PhoneNumber("1234567890");
         Assert.That(phone.ToString(), Is.EqualTo("(123) 456-7890"));
     }
+
+    //[Ignore("Remove to run test")]
+    [Test]
+    public void Invalid_when_more_than_11_digits()
+    {
+        var phone = new PhoneNumber("121234567890");
+        Assert.That(phone.Number, Is.EqualTo("0000000000"));
+    }
 }
